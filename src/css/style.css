@@ -1,0 +1,57 @@
+body {
+    background-color: whitesmoke;
+}
+
+.search-bar {
+    background-color: white;
+    border: 1px solid blueviolet;
+    display: flex;
+}
+
+.selected-countries-tags {
+    display: flex;
+}
+
+.search-box {
+    margin: 0 2px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+}
+
+.country-name {
+    font-weight: bold;
+}
+
+.country-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tag-wrapper {
+    background-color: lightgray;
+    display: flex;
+    margin: 0 5px;
+}
+
+.clear-country {
+    width: 20px;
+    color: white;
+    background-color: dimgray;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.result-box {
+    display: flex;
+}
+
+.result {
+    font-size: small;
+}

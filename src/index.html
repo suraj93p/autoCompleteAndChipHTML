@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>Auto Complete</title>
+      <meta charset='utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <link rel='stylesheet' href='css/style.css'>
+      <script src='js/app.js' defer></script>
+</head>
+
+<body onload='getCountryList()'>
+      <div>
+            <div class='search'>
+                  <header>
+                        Enter Country Code
+                  </header>
+                  <div class='search-bar' id='selected-countries'>
+                        <div class='selected-countries-tags' id='selected-countries-tags'></div>
+                        <div class='search-box'><span>&#xbb;</span>
+                              <input type='text' name='search-input' id='search-input' class='search-input'
+                                    placeholder='Add a country' onkeyup='showCountryList()' />
+                        </div>
+                  </div>
+                  <div class='autosuggest-result' id='autosuggest-list'></div>
+            </div>
+            <div class='result-box'>
+                  <strong>Countries:</strong>
+                  <div class='result' id='result-list' />
+            </div>
+      </div>
+</body>
+
+</html>
